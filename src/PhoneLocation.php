@@ -8,11 +8,17 @@ namespace Xuduan\Phone;
 
 class PhoneLocation
 {
+    // 资源路径
     const DATA_FILE = __DIR__.'/resources/phone.dat';
+
+    // 运营商
     protected static $spList = [1=>'移动', 2=>'联通', 3=>'电信', 4=>'电信虚拟运营商', 5=>'联通虚拟运营商', 6=>'移动虚拟运营商'];
+
     private $_fileHandle = null;
+
     private $_fileSize = 0;
 
+    
     public function __construct()
     {
         $this->_fileHandle = fopen(self::DATA_FILE, 'r');
@@ -70,8 +76,8 @@ class PhoneLocation
 
     /**
      * 解析归属地信息
-     * @param  string $itemStr
-     * @param  int $type
+     * @param  string $itemStr 目标字符串 (eg:'上海|上海|200000|021')
+     * @param  int $type 运营商类型 (self::$spList)
      * @return array
      * @author xuduan <xuduan@qq.com>
      */
