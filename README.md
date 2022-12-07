@@ -11,7 +11,7 @@ https://packagist.org/packages/shitoudev/phone-location
 
 ### Installation
 ```
-composer require "xuduan/phone-location:^1.0"
+composer require "xuduan/phone-location"
 ```
 
 
