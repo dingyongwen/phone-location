@@ -1,6 +1,5 @@
 ### 特别说明
-仅用于学习发包的一个测试项目，原作者:
-https://packagist.org/packages/shitoudev/phone-location
+仅用于学习的一个测试项目
 
 ### 功能
 根据手机号查询归属地
@@ -42,7 +41,8 @@ Array
 ```
 
 ### Thanks
-[https://github.com/lovedboy/phone](https://github.com/lovedboy/phone)
+[归属地资源文件](https://github.com/lovedboy/phone)  
+[本包的原作者](https://packagist.org/packages/shitoudev/phone-location)
 
 ### License
-[MIT license.](https://raw.githubusercontent.com/shitoudev/phone-location/master/LICENSE)
+[MIT license.](https://github.com/dingyongwen/phone-location/blob/main/LICENSE)
