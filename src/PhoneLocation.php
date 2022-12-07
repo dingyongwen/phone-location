@@ -1,10 +1,9 @@
 <?php
 
-/**
-* 手机号码归属地
-* 数据文件格式参考：https://github.com/lovedboy/phone
-*/
-
+ /**
+  * 手机号码归属地
+  * 数据文件格式参考：https://github.com/lovedboy/phone
+  */
 namespace Xuduan\Phone;
 
 class PhoneLocation
