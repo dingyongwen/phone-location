@@ -1,0 +1,19 @@
+{
+    "name": "xuduan/phone-location",
+    "description": "仅用于学习发包的一个测试项目,查询手机号归属地",
+    "keywords": ["phone", "location"],
+    "type": "library",
+    "homepage": "https://github.com/dingyongwen/phone-location",
+    "autoload": {
+        "psr-4": {
+            "Xuduan\\Phone\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "xuduan",
+            "email": "xuduan@qq.com"
+        }
+    ],
+    "require": {}
+}
